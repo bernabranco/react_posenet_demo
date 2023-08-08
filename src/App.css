@@ -1,0 +1,23 @@
+.App {
+  height: 100vh;
+  background-color: black;
+}
+
+h1,
+p {
+  color: white;
+  font-family: monospace;
+}
+
+p {
+  margin: 0;
+  line-height: 30px;
+}
+
+video {
+  transform: scaleX(-1); /* Flip video horizontally for mirror effect */
+}
+
+canvas {
+  transform: scaleX(-1); /* Flip canvas horizontally for mirror effect */
+}
